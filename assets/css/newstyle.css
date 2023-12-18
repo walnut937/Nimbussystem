@@ -47,6 +47,22 @@ body{
 	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
 }
 
+.btn-get-started {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 12px 32px;
+	border-radius: 4px;
+	transition: 0.5s;
+	line-height: 1;
+	margin: 10px;
+	color: #cacaca;
+	animation-delay: 0.8s;
+	border: 2px solid rgba(137,207,240, 0.8);
+  }
+
 .left{
 	background: url("https://images.unsplash.com/photo-1521247205284-f4f3c95fdb5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1912&q=80") no-repeat center;
 	background-size: cover;
