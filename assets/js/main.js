@@ -156,6 +156,67 @@
 
 //contact form validation
 
+function validateForm() {
+  var name = document.forms["contact-form"]["your-name"].value;
+  var email = document.forms["contact-form"]["your-email"].value;
+  var phone = document.forms["contact-form"]["your-number"].value;
+  var message = document.forms["contact-form"]["message"].value;
+
+  // Clear previous error messages
+  clearErrors();
+
+  var isValid = true;
+
+  // Name validation
+  if (name.length < 3) {
+    displayError("name-error", "Name should be at least 3 characters");
+    isValid = false;
+  }
+
+  // Email validation
+  if (!isValidEmail(email)) {
+    displayError("email-error", "Enter a valid email address");
+    isValid = false;
+  }
+
+  // Phone validation
+  if (!isValidPhoneNumber(phone)) {
+    displayError("phone-error", "Enter a valid phone number");
+    isValid = false;
+  }
+
+  // Message validation
+  if (message.length < 5) {
+    displayError("message-error", "Message should be at least 5 characters");
+    isValid = false;
+  }
+
+  return isValid;
+}
+
+function isValidEmail(email) {
+  // A simple email validation regex
+  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return emailRegex.test(email);
+}
+
+function isValidPhoneNumber(phone) {
+  // A simple phone number validation regex
+  var phoneRegex = /^\d{10}$/;
+  return phoneRegex.test(phone);
+}
+
+function displayError(elementId, message) {
+  var errorElement = document.getElementById(elementId);
+  errorElement.innerText = message;
+}
+
+function clearErrors() {
+  var errorElements = document.querySelectorAll(".error");
+  errorElements.forEach(function (element) {
+    element.innerText = "";
+  });
+}
 
 
 

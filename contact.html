@@ -5,13 +5,13 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>NIMBUS - Contact</title>
+  <title>Contact - digitAI</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/nim-logo-removebg-preview.png" rel="icon">
-  <link href="assets/img/nim-logo-removebg-preview.png" rel="apple-touch-icon">
+  <link href="assets/img/digitAILogo.png" rel="icon">
+  <link href="assets/img/digitAILogo.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -56,10 +56,10 @@
         <ul>
           <li class="nav-item"><a href="./index.html" class="nav-link" href="#">Home</a></li>
           <li class="nav-item"><a href="./about.html" class="nav-link" href="#">About Us</a></li>
-          <li class="nav-item"><a class="" href="#">Services</a></li>
+          <li class="nav-item"><a href="./services.html" class="nav-link">Services</a></li>
           <li class="nav-item"><a class="" href="#">Partnership</a></li>
           <li class="nav-item"><a href="./case.html" class="nav-link" href="#">Case Studies</a></li>
-          <li class="nav-item"><a  class="" href="#">Team</a></li>
+          <li class="nav-item"><a class="" href="#">Team</a></li>
           <li class="nav-item"><a href="./contact.html" class="nav-link" href="#">Contact Us</a></li>
 
           <!-- <li class="dropdown"><a href="#"><span>About</span> <i class="bi bi-chevron-down"></i></a>
@@ -135,19 +135,19 @@
         </div>
       </div>
 			<div  class="right">
-        <form method="post" action="" name="contact-form" id="contactForm">
+        <form method="post" action="" name="contact-form" id="contactForm" onsubmit="return validateForm()">
           <input type="text" name="your-name" class="field" placeholder="Your Name" required>
           <div class="error" id="name-error"></div>
-
+        
           <input type="email" name="your-email" class="field" placeholder="Your Email" required>
           <div class="error" id="email-error"></div>
-
-          <input type="text" name="your-number" class="field" placeholder="Phone" required>
+        
+          <input type="tel" name="your-number" class="field" placeholder="Phone" required>
           <div class="error" id="phone-error"></div>
-
+        
           <textarea name="message" placeholder="Message" class="field" required></textarea>
           <div class="error" id="message-error"></div>
-
+        
           <button class="btn" type="submit" id="submit">Send</button>
         </form>
         <div>
