@@ -2500,7 +2500,7 @@ section {
   position: relative;
 	width: 300px;
 	height: 162px; 
-	background-image: url('https://images.unsplash.com/photo-1607863680198-23d4b2565df0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+	background-image: url('/assets/img/bg1.avif'); 
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -2524,7 +2524,7 @@ section {
     position: relative;
     width: 300px;
     height: 162px; 
-    background-image: url('https://images.unsplash.com/photo-1665724013155-eed51dd7cfa7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+    background-image: url('/assets/img/bg2.avif'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -2548,7 +2548,7 @@ section {
       position: relative;
       width: 300px;
       height: 162px; 
-      background-image: url('https://images.unsplash.com/photo-1529310399831-ed472b81d589?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+      background-image: url('/assets/img/bg3.avif'); 
       background-size: cover;
       background-position: center;
       background-repeat: no-repeat;
@@ -2573,7 +2573,7 @@ section {
         position: relative;
         width: 300px;
         height: 162px; 
-        background-image: url('https://images.unsplash.com/photo-1544481921-fb52f37ba73c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+        background-image: url('/assets/img/bg4.avif'); 
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -2598,7 +2598,7 @@ section {
           position: relative;
           width: 300px;
           height: 162px; 
-          background-image: url('https://images.unsplash.com/photo-1628527304948-06157ee3c8a6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+          background-image: url('/assets/img/bg5.avif'); 
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -2623,7 +2623,7 @@ section {
             position: relative;
             width: 300px;
             height: 162px; 
-            background-image: url('https://images.unsplash.com/photo-1555848962-6e79363ec58f?q=80&w=2033&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); 
+            background-image: url('/assets/img/bg6.avif'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
