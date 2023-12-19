@@ -2658,3 +2658,39 @@ section {
     position: relative;
     z-index: 2;
   }
+
+
+  /* animated numbers in about us  */
+  /* Add this CSS to your stylesheet */
+
+
+
+.counter-box {
+  background-color: grey; /* Set the background color for the counter boxes */
+  border: 2px solid rgba(137,207,240, 0.8);; /* Add a border to the counter boxes */
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  transition: background-color 0.3s; /* Add a smooth transition for hover effect */
+}
+
+.counter-box:hover {
+  background-color: inherit; /* Change the background color on hover */
+}
+
+
+.counter-box p {
+  margin-top: 10px;
+}
+
+/* Style the font-awesome icons */
+.counter-box i {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Add a border radius for rounded corners */
+.counter-box,
+.counter-box:hover {
+  border-radius: 8px;
+}
