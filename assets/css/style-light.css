@@ -982,7 +982,7 @@ section {
 
 .clients .client-logo img {
   transition: all 0.3s ease-in-out;
-  height: 36px;
+  height: 90px;
   filter: grayscale(100%);
 }
 
@@ -2646,6 +2646,12 @@ section {
 
             .carousel-control-prev, .carousel-control-next{
               z-index: 10;
+            }
+
+            .transform-on-hover:hover {
+              transform: scale(1.1); /* Adjust the scale factor as needed */
+              transition: transform 0.5s ease-in-out; /* Add a smooth transition for a better effect */
+              cursor: pointer;
             }
 
   .industry-text{
