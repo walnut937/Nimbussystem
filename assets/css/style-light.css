@@ -12,6 +12,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #e4e4e4;
+  margin: auto;
+  padding: 0 0;
 }
 
 a {
@@ -692,7 +694,7 @@ section {
   display: inline-block;
   padding-right: 10px;
   color: #1e1e1e;
-  content: "/";
+  content: ">";
 }
 
 @media (max-width: 445px) {
@@ -2693,4 +2695,33 @@ section {
 .counter-box,
 .counter-box:hover {
   border-radius: 8px;
+}
+
+
+
+.service1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  flex: 500px 500px ;
+}
+
+
+.child1{
+  flex: 2;
+}
+
+.child2{
+  flex: 1;
+  width: 200px;
+}
+
+#Overview{
+  background-color: rgb(221, 221, 221);
+}
+
+.Topic {
+  margin-bottom: 40px;
+  text-decoration: underline;
 }
