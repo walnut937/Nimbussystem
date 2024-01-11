@@ -21,7 +21,7 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 20px 100px;
+	padding: 20px 10px;
 }
 
 .contain:after{
@@ -79,7 +79,7 @@ h2{
 	margin-bottom: 10px;
 }
 
-h2:after{
+/* h2:after{
 	content: '';
     position: absolute;
     left: 50%;
@@ -89,6 +89,11 @@ h2:after{
     width: 50px;
     border-radius: 2px;
     background-color: #2ecc71;
+} */
+
+
+.overflow{
+	overflow-x: hidden;
 }
 
 .field{
@@ -102,9 +107,9 @@ h2:after{
 	transition: .3s;
 }
 
-.field:hover{
+/* .field:hover{
 	background-color: rgba(0, 0, 0, 0.1);
-}
+} */
 
 textarea{
 	min-height: 150px;
@@ -126,10 +131,10 @@ textarea{
     background-color: #27ae60;
 }
 
-.field:focus{
+/* .field:focus{
     border: 2px solid rgba(30,85,250,0.47);
     background-color: #fff;
-}
+} */
 
 @media screen and (max-width: 880px){
 	.contact-box{
@@ -230,3 +235,16 @@ h1{
 
   /* bg color of industry section */
 
+.NameField{
+	background-color: white;
+	border-bottom: 2px solid gray;
+	outline: none;
+}
+
+.submit{
+	background-color: rgba(137,207,240, 0.8);
+}
+
+.submit:hover{
+	background-color: rgba(35, 164, 223, 0.8);
+}
